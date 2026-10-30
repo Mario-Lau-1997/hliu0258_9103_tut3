@@ -1,5 +1,4 @@
 /*
- * AI assistance: ChatGPT/Codex helped implement the particles and trail buffer.
  * General flow-field idea: Shiffman, The Nature of Code, chapter 5.
  * https://natureofcode.com/autonomous-agents/#flow-fields
  * This project combines a wave gradient with Perlin drift using original code.
