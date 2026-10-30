@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- AI assistance: ChatGPT/Codex helped build this page. See README.md. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ripple: Resonance. An interactive p5.js artwork about how separate actions form a shared pattern.">
+  <title>Ripple: Resonance</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div><p class="eyebrow">AN INTERACTIVE STUDY</p><h1>Ripple<span>: Resonance</span></h1></div>
+    <p class="intro">Separate actions.<br> A changing shared pattern.</p>
+  </header>
+  <main>
+    <section class="artwork" aria-label="Interactive artwork">
+      <div id="canvas-host"><p id="loading-message">Preparing the artwork…</p></div>
+      <div class="canvas-caption"><span id="scene-status" aria-live="polite">Two sources. One shared field.</span><span class="colour-key"><i></i>Positive wave <i></i>Negative wave</span></div>
+    </section>
+    <aside class="controls" aria-label="Artwork controls">
+      <p class="eyebrow">SHAPE THE FIELD</p>
+      <h2>Your next action<br>changes the whole.</h2>
+      <p class="instructions">Click an empty place to add a source. Drag a source to move it.</p>
+      <div class="selected-heading"><span>Selected source</span><strong id="selected-source">02</strong></div>
+      <label for="source-select">Choose a source</label>
+      <div class="source-picker"><select id="source-select"></select><button id="add-button">Add source</button></div>
+      <label for="strength">Source strength <output id="strength-output">0.85</output></label>
+      <input id="strength" type="range" min="0.25" max="1.6" step="0.05" value="0.85">
+      <div class="source-actions"><button id="phase-button" aria-pressed="false">Reverse phase</button><button id="remove-button" class="quiet">Remove</button></div>
+      <p id="phase-description" class="hint">The source rises with the wave.</p>
+      <label for="spacing">Wave spacing <output id="spacing-output">18%</output></label>
+      <input id="spacing" type="range" min="11" max="30" step="1" value="18">
+      <label for="drift">Natural drift <output id="drift-output">28%</output></label>
+      <input id="drift" type="range" min="0" max="100" step="1" value="28">
+      <p class="hint">Drift adds gentle variation to the particle paths.</p>
+      <div class="history-controls"><button id="undo-button" disabled>Undo</button><button id="redo-button" disabled>Redo</button></div>
+      <p id="history-status" class="hint" aria-live="polite">0 edits to undo · 0 to redo</p>
+      <div class="transport"><button id="pause-button">Pause</button><button id="save-button" class="quiet">Save image</button></div>
+      <div class="minor-actions"><button id="reset-button">Restore scene</button><button id="clear-button">Clear</button><button id="seed-button">New drift</button></div>
+      <details id="help"><summary>How to explore</summary><p>Move the two sources closer together. Reverse one phase and watch the quiet spaces change.</p><p>Add source also works without a mouse. Use Choose a source to select even overlapping sources. Tab to the canvas: A adds a source, arrow keys move it, Shift + arrows move further.</p><p>Space: pause. P: reverse phase. Delete: remove. R: restore. N: new drift. S: save image. G: hide source guides.</p><p>Undo / Redo keeps the last 30 edits. With the canvas focused, use Ctrl/Cmd + Z to undo and Ctrl/Cmd + Shift + Z to redo. One drag is one edit. Undo restores settings and clears particle trails; time keeps its current value.</p><p>You can place up to six sources. The artwork has no sound.</p></details>
+      <p class="seed-note">Drift seed <span id="seed-label">7321</span><span id="source-count">2 / 6 sources</span></p>
+    </aside>
+  </main>
+  <footer class="page-footer"><span>A small action can reshape the space around it.</span><span>Original work in p5.js</span></footer>
+  <script src="vendor/p5.min.js"></script>
+  <script src="js/wave-field.js"></script>
+  <script src="js/perlin-flow.js"></script>
+  <script src="js/particle-system.js"></script>
+  <script src="js/scene-state.js"></script>
+  <script src="js/scene-history.js"></script>
+  <script src="js/input-controls.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="sketch.js"></script>
+  <script>window.addEventListener('load',function(){if(!window.p5){document.getElementById('loading-message').textContent='The p5.js library could not load. Keep the vendor folder beside index.html and reopen this file.';}});</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-16T03:17:02.964Z",
+  "browser": "Chrome Headless Shell",
+  "checks": [
+    "Open directly from index.html with external network blocked",
+    "Pause freezes the simulation clock",
+    "Phase editing works while time is paused",
+    "Strength, wavelength and noise controls update the shared state",
+    "Keyboard source movement and phase controls",
+    "Dragging beyond the canvas clamps position and ends on release",
+    "Clear, new sources and six-source limit",
+    "Removing a source updates selection",
+    "A new seed changes the noise and particle starting state",
+    "Restore resets sources, spacing, noise seed and drift",
+    "Save image exports the running p5 canvas",
+    "Tablet and phone layouts retain source positions with no horizontal overflow",
+    "Six-source scene runs with finite state and bounded particle count",
+    "No JavaScript page errors during the tested interactions",
+    "Reduced-motion preference starts with time paused"
+  ],
+  "errors": [],
+  "sampledFps": {
+    "twoSources": 29.9,
+    "sixSources": 30
+  },
+  "note": "Automated local-browser checks, not a student user study or a guarantee for other hardware."
+}
