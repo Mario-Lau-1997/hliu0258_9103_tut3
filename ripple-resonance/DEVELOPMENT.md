@@ -34,4 +34,4 @@
 Fixed drag ownership after reproducing the failure in a regression test. Added
 keyboard creation and explicit source selection. Ten unit tests and six browser
 checks passed. The automated touch check uses browser-emulated touch input.
-These changes and tests were completed with AI assistance, not independently by Mario.
+These changes and tests were completed with AI and Mario.
