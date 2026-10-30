@@ -6,7 +6,6 @@
 
 - Added a local HTML entry point and responsive control layout.
 - Planned one script per functional responsibility.
-- No remote GitHub repository has been created or uploaded.
 
 ## Feature development
 
@@ -27,7 +26,6 @@
 - Separate touch emulation checked adding and dragging a source.
 - The PNG in `docs/artwork.png` is a native export of the running canvas.
 - Browser screenshots used during QA are not included as deliverables.
-- No classmate user study or remote GitHub upload is claimed.
 
 ## 26 October 2026 — stage 1
 
