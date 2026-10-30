@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-30T10:00:40.345Z",
+  "stage": 1,
+  "browser": "131.0.6778.204",
+  "checks": [
+    "Create sources with the Add button and A key, including an empty scene",
+    "Source list selects the intended source for keyboard movement",
+    "Keyboard addition respects the six-source limit",
+    "Real browser touch events: lifting a second finger preserves the first drag",
+    "Added controls fit tablet and phone widths without changing source positions",
+    "No uncaught JavaScript errors in the tested flow"
+  ],
+  "errors": [],
+  "note": "Automated local-browser checks; not a classroom user study."
+}

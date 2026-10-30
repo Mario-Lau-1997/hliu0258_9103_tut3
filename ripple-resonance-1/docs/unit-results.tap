@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: equal opposite sources cancel across the field
+ok 1 - equal opposite sources cancel across the field
+  ---
+  duration_ms: 1.424275
+  type: 'test'
+  ...
+# Subtest: reversing one source changes its sign, not its position or strength
+ok 2 - reversing one source changes its sign, not its position or strength
+  ---
+  duration_ms: 0.282567
+  type: 'test'
+  ...
+# Subtest: source count is bounded and positions stay within the artwork
+ok 3 - source count is bounded and positions stay within the artwork
+  ---
+  duration_ms: 2.935569
+  type: 'test'
+  ...
+# Subtest: simple contour crosses the correct two cell edges
+ok 4 - simple contour crosses the correct two cell edges
+  ---
+  duration_ms: 0.900841
+  type: 'test'
+  ...
+# Subtest: saddle cells produce two finite segments inside the cell
+ok 5 - saddle cells produce two finite segments inside the cell
+  ---
+  duration_ms: 0.15609
+  type: 'test'
+  ...
+# Subtest: grid interpolation preserves finite values after resize
+ok 6 - grid interpolation preserves finite values after resize
+  ---
+  duration_ms: 13.662081
+  type: 'test'
+  ...
+# Subtest: a second pointer ending does not stop the active drag
+ok 7 - a second pointer ending does not stop the active drag
+  ---
+  duration_ms: 4.699956
+  type: 'test'
+  ...
+# Subtest: keyboard add stops at six and selects each newly added source
+ok 8 - keyboard add stops at six and selects each newly added source
+  ---
+  duration_ms: 0.484506
+  type: 'test'
+  ...
+# Subtest: source list can choose either of two overlapping sources
+ok 9 - source list can choose either of two overlapping sources
+  ---
+  duration_ms: 0.18965
+  type: 'test'
+  ...
+# Subtest: empty field can be rebuilt without a pointer
+ok 10 - empty field can be rebuilt without a pointer
+  ---
+  duration_ms: 0.177102
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 154.816021
