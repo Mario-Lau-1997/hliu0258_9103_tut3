@@ -30,11 +30,3 @@ in this headless environment. These are brief samples, not a controlled
 performance benchmark or a promise for another computer. A real projector,
 Safari, Firefox and physical touch hardware were not tested.
 
-## Sensible next checks for the student
-
-- Check the work on the actual presentation laptop and projector.
-- Ask a classmate to add, move and reverse a source without explaining it first.
-- Record their real confusion or feedback, then make a small justified change.
-- Compare three sources with six sources. Decide whether the denser pattern
-  still communicates the intended relationship.
-- Keep screenshots or notes only for tests you actually perform.
