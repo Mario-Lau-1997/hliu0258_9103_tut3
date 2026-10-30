@@ -88,8 +88,7 @@ colours assigned to particular participants. A plus/minus label shows source pha
 
 ## Mechanic ownership
 
-**Owner: the sole student submitting this individual project.** There are no
-invented team members. The primary chosen mechanic is **user input**. Pointer
+**Owner: Mario. The primary chosen mechanic is **user input**. Pointer
 manipulation, phase changes and parameter controls form one connected way of
 shaping the shared field. The input mechanic lives in `js/input-controls.js`.
 
