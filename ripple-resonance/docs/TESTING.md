@@ -1,7 +1,5 @@
 # Recorded checks
 
-The project was checked with assistance from OpenAI ChatGPT/Codex on 16 October
-2026. These are automated tests, not student interviews or a user study.
 
 ## Mathematical checks
 
