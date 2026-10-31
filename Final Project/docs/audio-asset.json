@@ -1,0 +1,11 @@
+{
+  "durationSeconds": 24,
+  "sampleRate": 22050,
+  "channels": 1,
+  "peak": 0.44,
+  "rms": 0.04533304763195121,
+  "firstSample": 0,
+  "lastSample": 0,
+  "seed": 7321,
+  "source": "Synthesised filtered noise and sine chirps; no external recording."
+}
