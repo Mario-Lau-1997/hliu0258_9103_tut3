@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-30T15:03:59.055Z",
+  "browser": "131.0.6778.204",
+  "checks": [
+    "Offline page starts silently without creating an AudioContext",
+    "Explicit click decodes the embedded WAV, starts the loop and measures nonzero audio",
+    "Adding, keyboard movement and reversing phase generate short sounds",
+    "Dragging produces throttled drops with a bounded voice count",
+    "Volume zero removes the sound response; raising volume restores it",
+    "Pause suspends the audio clock and animation; Resume restarts both",
+    "The ambience continues after its first 24-second loop boundary",
+    "Native canvas PNG export still includes the rendered artwork",
+    "Loading a scene pauses audio with the scene and keeps sound settings in this session",
+    "Mute remains silent through Resume; enabling sound works again",
+    "Sound controls fit tablet and phone widths",
+    "Reduced-motion start stays paused after enabling audio until Resume",
+    "Without Web Audio support, source editing still works and sound is unavailable",
+    "No uncaught JavaScript errors in the tested audio flows"
+  ],
+  "errors": [],
+  "note": "Automated offline Chromium checks with actual decoded audio and analyser data. No human listening or physical speaker test; other browsers and devices remain unverified."
+}

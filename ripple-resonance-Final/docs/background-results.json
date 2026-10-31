@@ -1,0 +1,13 @@
+{
+  "stage": 3,
+  "checkedAt": "2026-10-30T10:01:16.356Z",
+  "browser": "131.0.6778.204",
+  "checks": [
+    "The supplied painting loads from local embedded bytes with network access blocked",
+    "Rendered canvas pixels match the painting at proportional cover scale",
+    "Save image exports the full canvas including the painting",
+    "Phone resizing preserves source positions and avoids horizontal overflow"
+  ],
+  "errors": [],
+  "note": "Automated local-browser checks; not a classroom user study."
+}
