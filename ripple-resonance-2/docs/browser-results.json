@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-30T10:00:42.822Z",
+  "stage": 2,
+  "browser": "131.0.6778.204",
+  "checks": [
+    "Create sources with the Add button and A key, including an empty scene",
+    "Source list selects the intended source for keyboard movement",
+    "Keyboard addition respects the six-source limit",
+    "Real browser touch events: lifting a second finger preserves the first drag",
+    "Added controls fit tablet and phone widths without changing source positions",
+    "Undo/redo restores source phase and selection",
+    "One drag produces one history step; shortcuts undo and redo it",
+    "A multi-value slider gesture is one edit",
+    "Clear and seeded drift changes can be reversed",
+    "A new edit after undo invalidates the previous redo branch",
+    "No uncaught JavaScript errors in the tested flow"
+  ],
+  "errors": [],
+  "note": "Automated local-browser checks; not a classroom user study."
+}

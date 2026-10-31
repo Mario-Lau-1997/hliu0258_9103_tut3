@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: equal opposite sources cancel across the field
+ok 1 - equal opposite sources cancel across the field
+  ---
+  duration_ms: 1.620945
+  type: 'test'
+  ...
+# Subtest: reversing one source changes its sign, not its position or strength
+ok 2 - reversing one source changes its sign, not its position or strength
+  ---
+  duration_ms: 0.261806
+  type: 'test'
+  ...
+# Subtest: source count is bounded and positions stay within the artwork
+ok 3 - source count is bounded and positions stay within the artwork
+  ---
+  duration_ms: 0.154699
+  type: 'test'
+  ...
+# Subtest: simple contour crosses the correct two cell edges
+ok 4 - simple contour crosses the correct two cell edges
+  ---
+  duration_ms: 1.167886
+  type: 'test'
+  ...
+# Subtest: saddle cells produce two finite segments inside the cell
+ok 5 - saddle cells produce two finite segments inside the cell
+  ---
+  duration_ms: 0.496303
+  type: 'test'
+  ...
+# Subtest: grid interpolation preserves finite values after resize
+ok 6 - grid interpolation preserves finite values after resize
+  ---
+  duration_ms: 38.810297
+  type: 'test'
+  ...
+# Subtest: a long drag is one undo step and redo restores its end
+ok 7 - a long drag is one undo step and redo restores its end
+  ---
+  duration_ms: 1.519005
+  type: 'test'
+  ...
+# Subtest: editing after undo discards the old redo branch
+ok 8 - editing after undo discards the old redo branch
+  ---
+  duration_ms: 0.269859
+  type: 'test'
+  ...
+# Subtest: selection and no-op gestures do not add artwork edits
+ok 9 - selection and no-op gestures do not add artwork edits
+  ---
+  duration_ms: 0.185064
+  type: 'test'
+  ...
+# Subtest: history is capped and does not retain live references
+ok 10 - history is capped and does not retain live references
+  ---
+  duration_ms: 0.523764
+  type: 'test'
+  ...
+# Subtest: undo finalises a still-open slider edit before reverting it
+ok 11 - undo finalises a still-open slider edit before reverting it
+  ---
+  duration_ms: 0.147829
+  type: 'test'
+  ...
+# Subtest: snapshot restore keeps source IDs, phase and seeded settings
+ok 12 - snapshot restore keeps source IDs, phase and seeded settings
+  ---
+  duration_ms: 1.023874
+  type: 'test'
+  ...
+# Subtest: a second pointer ending does not stop the active drag
+ok 13 - a second pointer ending does not stop the active drag
+  ---
+  duration_ms: 1.802043
+  type: 'test'
+  ...
+# Subtest: keyboard add stops at six and selects each newly added source
+ok 14 - keyboard add stops at six and selects each newly added source
+  ---
+  duration_ms: 0.566907
+  type: 'test'
+  ...
+# Subtest: source list can choose either of two overlapping sources
+ok 15 - source list can choose either of two overlapping sources
+  ---
+  duration_ms: 0.345441
+  type: 'test'
+  ...
+# Subtest: empty field can be rebuilt without a pointer
+ok 16 - empty field can be rebuilt without a pointer
+  ---
+  duration_ms: 0.307775
+  type: 'test'
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 147.134449
