@@ -201,11 +201,6 @@ Run the mathematical tests with `node --test tests/field.test.cjs`.
 The browser test needs Playwright and a compatible local Chrome executable;
 instructions appear at the start of `tests/browser.cjs`.
 
-The included Git history records real development steps using **Codex AI
-Assistant** as the author. It must not be described as independent student work.
-The course asks for at least three meaningful commits per member, excluding
-setup. Preserve this acknowledgement and record your own real edits, testing and
-improvements with your own account. See `docs/SUBMISSION_CHECKLIST.md`.
 
 ## External references in APA 7th format
 
